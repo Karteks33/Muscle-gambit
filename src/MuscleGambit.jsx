@@ -16,7 +16,7 @@ export default function MuscleGambit() {
     Kompletny plan Full Body Workout. Idealny na start, dla spalania tłuszczu i budowy siły.
   </p>
   <a
-    href="https://buy.stripe.com/cNi4gAgGog4Q6oa14E08g0"
+    href="https://buy.stripe.com/cNi4gAgGog4Q6oa14E08g00"
     target="_blank"
     rel="noopener noreferrer"
   >
