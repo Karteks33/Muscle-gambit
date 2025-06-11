@@ -23,7 +23,7 @@ export default function MuscleGambit() {
             Plan skonstruowany jak otwarcie gambitowe – szybki, mocny i z myślą o dominacji. Trening całego ciała trzy razy w tygodniu. Idealny dla początkujących i średnio zaawansowanych, którzy chcą budować siłę, masę i wytrzymałość w przemyślany sposób.
           </p>
           <img 
-            src="/messi.jpg" 
+            src="/pogba.jpg" 
             alt="10zł" 
             style={{ width: '150px', height: 'auto', maxWidth: '100%', display: 'block' }}
   onClick={() => handleRedirect("https://buy.stripe.com/test_gambitTanka")}            onClick={() => handleRedirect("https://buy.stripe.com/cNi4gAgGog4Q6oa14E08g00")}
@@ -38,7 +38,7 @@ export default function MuscleGambit() {
             Dla zaawansowanych graczy – taktyka i kontrola. Ten sześciodniowy split pozwala precyzyjnie rozwijać każdą grupę mięśniową, jak hetman kontrolujący szachownicę. Maksymalna objętość i intensywność bez chaosu – bo siła tkwi w strukturze.
           </p>
           <img 
-            src="/pogba.jpg" 
+            src="/messi.jpg" 
             alt="30zł" 
              style={{ width: '150px', height: 'auto', maxWidth: '100%', display: 'block' }}
   onClick={() => handleRedirect("https://buy.stripe.com/test_gambitTanka")}            onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
