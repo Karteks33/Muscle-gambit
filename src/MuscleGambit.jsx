@@ -25,8 +25,8 @@ export default function MuscleGambit() {
           <img 
             src="/messi.jpg" 
             alt="10zł" 
-            className="cursor-pointer w-1 hover:opacity-80 transition-opacity duration-300"
-            onClick={() => handleRedirect("https://buy.stripe.com/cNi4gAgGog4Q6oa14E08g00")}
+            style={{ width: '150px', height: 'auto', maxWidth: '100%', display: 'block' }}
+  onClick={() => handleRedirect("https://buy.stripe.com/test_gambitTanka")}            onClick={() => handleRedirect("https://buy.stripe.com/cNi4gAgGog4Q6oa14E08g00")}
           />
         </section>
 
