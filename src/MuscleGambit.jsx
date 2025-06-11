@@ -40,7 +40,7 @@ export default function MuscleGambit() {
           <img 
             src="/pogba.jpg" 
             alt="30zł" 
-            className="cursor-pointer w-48 hover:opacity-80 transition-opacity duration-300"
+            className="w-32 h-auto cursor-pointer hover:opacity-80 transition-opacity duration-300"
             onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
           />
         </section>
