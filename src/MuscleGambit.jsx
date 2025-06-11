@@ -25,7 +25,7 @@ export default function MuscleGambit() {
           <img 
             src="/messi.jpg" 
             alt="10zł" 
-            className="cursor-pointer w-48 hover:opacity-80 transition-opacity duration-300"
+            className="cursor-pointer w-1 hover:opacity-80 transition-opacity duration-300"
             onClick={() => handleRedirect("https://buy.stripe.com/cNi4gAgGog4Q6oa14E08g00")}
           />
         </section>
@@ -40,7 +40,7 @@ export default function MuscleGambit() {
           <img 
             src="/pogba.jpg" 
             alt="30zł" 
-            className="w-15 h-auto cursor-pointer hover:opacity-80 transition-opacity duration-300"
+            className="w-1 h-auto cursor-pointer hover:opacity-80 transition-opacity duration-300"
             onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
           />
         </section>
