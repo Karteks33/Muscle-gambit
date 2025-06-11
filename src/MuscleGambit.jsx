@@ -40,8 +40,8 @@ export default function MuscleGambit() {
           <img 
             src="/pogba.jpg" 
             alt="30zł" 
-            className="w-1 h-auto cursor-pointer hover:opacity-80 transition-opacity duration-300"
-            onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
+             style={{ width: '150px', height: 'auto', maxWidth: '100%', display: 'block' }}
+  onClick={() => handleRedirect("https://buy.stripe.com/test_gambitTanka")}            onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
           />
         </section>
       </main>
