@@ -10,7 +10,21 @@ export default function MuscleGambit() {
           <a href="#contact" className="hover:underline">Kontakt</a>
         </nav>
       </header>
-
+<main className="flex flex-col items-center justify-center p-10">
+  <h2 className="text-2xl font-semibold mb-4">Plan treningowy FBW</h2>
+  <p className="mb-6 text-center max-w-md">
+    Kompletny plan Full Body Workout. Idealny na start, dla spalania tłuszczu i budowy siły.
+  </p>
+  <a
+    href="https://buy.stripe.com/cNi4gAgGog4Q6oa14E08g0"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    <button className="bg-blue-600 hover:bg-blue-700 text-white text-lg px-6 py-3 rounded-xl shadow-lg transition">
+      Kup plan treningowy
+    </button>
+  </a>
+</main>
       <section className="text-center py-20 px-4">
         <h2 className="text-4xl md:text-6xl font-extrabold mb-6">Trening to strategia. Zagraj o formę.</h2>
         <p className="text-xl mb-8 max-w-2xl mx-auto">
