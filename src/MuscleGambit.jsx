@@ -1,6 +1,10 @@
 import React from "react";
 
 export default function MuscleGambit() {
+  const handleRedirect = (url) => {
+    window.location.href = url;
+  };
+
   return (
     <div className="bg-[#111] text-gray-100 font-sans">
       <header className="text-center py-8 bg-[#1a1a1a]">
@@ -18,9 +22,12 @@ export default function MuscleGambit() {
           <p className="mb-4">
             Plan skonstruowany jak otwarcie gambitowe – szybki, mocny i z myślą o dominacji. Trening całego ciała trzy razy w tygodniu. Idealny dla początkujących i średnio zaawansowanych, którzy chcą budować siłę, masę i wytrzymałość w przemyślany sposób.
           </p>
-          <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded">
-            Kup przez Stripe
-          </button>
+          <img 
+            src="/messi.png" 
+            alt="10zł" 
+            className="cursor-pointer w-48 hover:opacity-80 transition-opacity duration-300"
+            onClick={() => handleRedirect("https://buy.stripe.com/cNi4gAgGog4Q6oa14E08g00")}
+          />
         </section>
 
         <section className="bg-[#1f1f1f] p-6 rounded-xl shadow-lg mb-8">
@@ -30,9 +37,12 @@ export default function MuscleGambit() {
           <p className="mb-4">
             Dla zaawansowanych graczy – taktyka i kontrola. Ten sześciodniowy split pozwala precyzyjnie rozwijać każdą grupę mięśniową, jak hetman kontrolujący szachownicę. Maksymalna objętość i intensywność bez chaosu – bo siła tkwi w strukturze.
           </p>
-          <button className="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded">
-            Kup przez Stripe
-          </button>
+          <img 
+            src="/pogba/kup-stripe-2.png" 
+            alt="30zł" 
+            className="cursor-pointer w-48 hover:opacity-80 transition-opacity duration-300"
+            onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
+          />
         </section>
       </main>
 
