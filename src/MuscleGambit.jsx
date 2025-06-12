@@ -6,7 +6,7 @@ export default function MuscleGambit() {
   };
 
   return (
-    <div className="bg-[#111] text-gray-100 font-sans">
+    <div className="bg-[#111] text-gray-100 font-sans min-h-screen">
       <header className="text-center py-8 bg-[#1a1a1a]">
         <div className="text-3xl font-bold text-red-600">MuscleGambit</div>
         <p className="mt-4 text-lg italic text-gray-400">
@@ -14,39 +14,55 @@ export default function MuscleGambit() {
         </p>
       </header>
 
-      <main className="max-w-3xl mx-auto p-4">
-        <section className="bg-[#1f1f1f] p-6 rounded-xl shadow-lg mb-8">
-          <h2 className="text-red-600 text-2xl font-semibold mb-4">
-            Gambit Tanka – Full Body Workout
-          </h2>
-          <p className="mb-4">
-            Plan skonstruowany jak otwarcie gambitowe – szybki, mocny i z myślą o dominacji. Trening całego ciała trzy razy w tygodniu. Idealny dla początkujących i średnio zaawansowanych, którzy chcą budować siłę, masę i wytrzymałość w przemyślany sposób.
-          </p>
-          <img 
-            src="/pogba.jpg" 
-            alt="10zł" 
-            style={{ width: '150px', height: 'auto', maxWidth: '100%', display: 'block' }}
-  onClick={() => handleRedirect("https://buy.stripe.com/test_gambitTanka")}            onClick={() => handleRedirect("https://buy.stripe.com/cNi4gAgGog4Q6oa14E08g00")}
-          />
-        </section>
+      <main className="max-w-6xl mx-auto p-6">
+        <h1 className="text-center text-4xl font-bold text-white mb-10">PLANY TRENINGOWE</h1>
 
-        <section className="bg-[#1f1f1f] p-6 rounded-xl shadow-lg mb-8">
-          <h2 className="text-red-600 text-2xl font-semibold mb-4">
-            Hetmański Sznyt – 2x Push Pull Legs
-          </h2>
-          <p className="mb-4">
-            Dla zaawansowanych graczy – taktyka i kontrola. Ten sześciodniowy split pozwala precyzyjnie rozwijać każdą grupę mięśniową, jak hetman kontrolujący szachownicę. Maksymalna objętość i intensywność bez chaosu – bo siła tkwi w strukturze.
-          </p>
-          <img 
-            src="/messi.jpg" 
-            alt="30zł" 
-             style={{ width: '150px', height: 'auto', maxWidth: '100%', display: 'block' }}
-  onClick={() => handleRedirect("https://buy.stripe.com/test_gambitTanka")}            onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
-          />
-        </section>
+        <div className="grid md:grid-cols-2 gap-10">
+          {/* Karta 1 */}
+          <div className="bg-[#1f1f1f] p-6 rounded-xl shadow-lg text-center flex flex-col items-center">
+            <h2 className="text-red-600 text-2xl font-semibold mb-1">Gambit Tanka</h2>
+            <p className="italic text-gray-400 mb-2">Full Body Workout</p>
+            <img
+              src="/images/gambit-tanka.jpg"
+              alt="Plan Gambit Tanka"
+              className="w-40 h-auto mb-4 rounded-md"
+            />
+            <p className="text-gray-300 mb-2">
+              Plan skonstruowany jak otwarcie gambitowe – szybki, mocny i z myślą o dominacji. Trening całego ciała trzy razy w tygodniu. Idealny dla początkujących i średnio zaawansowanych.
+            </p>
+            <p className="text-xl font-bold text-white mb-4">99,99 zł</p>
+            <img
+              src="/images/kup-stripe-1.png"
+              alt="Kup teraz"
+              className="w-40 cursor-pointer hover:opacity-80 transition-opacity duration-300"
+              onClick={() => handleRedirect("https://buy.stripe.com/test_gambitTanka")}
+            />
+          </div>
+
+          {/* Karta 2 */}
+          <div className="bg-[#1f1f1f] p-6 rounded-xl shadow-lg text-center flex flex-col items-center">
+            <h2 className="text-red-600 text-2xl font-semibold mb-1">Hetmański Sznyt</h2>
+            <p className="italic text-gray-400 mb-2">2x Push Pull Legs</p>
+            <img
+              src="/images/hetmanski-sznyt.jpg"
+              alt="Plan Hetmański Sznyt"
+              className="w-40 h-auto mb-4 rounded-md"
+            />
+            <p className="text-gray-300 mb-2">
+              Dla zaawansowanych graczy – taktyka i kontrola. Ten sześciodniowy split pozwala precyzyjnie rozwijać każdą grupę mięśniową. Maksymalna objętość i intensywność bez chaosu.
+            </p>
+            <p className="text-xl font-bold text-white mb-4">129,99 zł</p>
+            <img
+              src="/images/kup-stripe-2.png"
+              alt="Kup teraz"
+              className="w-40 cursor-pointer hover:opacity-80 transition-opacity duration-300"
+              onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
+            />
+          </div>
+        </div>
       </main>
 
-      <footer className="text-center py-8 bg-[#1a1a1a] text-gray-400 text-sm">
+      <footer className="text-center py-10 bg-[#1a1a1a] text-gray-400 text-sm mt-16">
         <p>
           MuscleGambit to projekt stworzony przez pasjonatów treningu i strategii. Wierzymy, że forma to wynik przemyślanego planu – jak w szachach.
         </p>
