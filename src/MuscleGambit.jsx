@@ -18,7 +18,7 @@ export default function MuscleGambit() {
         {/* Plan 1 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center transition-transform hover:scale-105">
           <img
-            src="/images/gambit-tanka.png"
+            src="messi.jpg"
             alt="Plan Gambit Tanka"
             className="w-48 h-auto mb-6"
           />
@@ -26,7 +26,7 @@ export default function MuscleGambit() {
             (Gotowy Ebook) Gambit Tanka – Full Body Workout
           </h2>
           <p className="text-sm text-gray-500 mt-2 uppercase tracking-wide">FATKILLER</p>
-          <p className="mt-4 font-bold text-2xl text-[#e63946]">99,99 zł</p>
+          <p className="mt-4 font-bold text-2xl text-[#e63946]">9,99 zł</p>
           <button
             onClick={() => handleRedirect("https://buy.stripe.com/test_gambitTanka")}
             className="mt-6 bg-[#0d1a4b] text-white font-semibold py-3 px-8 rounded-full shadow-md hover:bg-[#1a2a73] transition"
@@ -38,7 +38,7 @@ export default function MuscleGambit() {
         {/* Plan 2 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center transition-transform hover:scale-105">
           <img
-            src="/images/hetmanski-sznyt.png"
+            src="pogba.jpg"
             alt="Plan Hetmański Sznyt"
             className="w-48 h-auto mb-6"
           />
@@ -46,7 +46,7 @@ export default function MuscleGambit() {
             (Gotowy Ebook) Hetmański Sznyt – 2x Push Pull Legs
           </h2>
           <p className="text-sm text-gray-500 mt-2 uppercase tracking-wide">FATKILLER</p>
-          <p className="mt-4 font-bold text-2xl text-[#e63946]">129,99 zł</p>
+          <p className="mt-4 font-bold text-2xl text-[#e63946]">24,99 zł</p>
           <button
             onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
             className="mt-6 bg-[#0d1a4b] text-white font-semibold py-3 px-8 rounded-full shadow-md hover:bg-[#1a2a73] transition"
