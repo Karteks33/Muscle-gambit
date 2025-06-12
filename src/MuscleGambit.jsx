@@ -67,8 +67,9 @@ export default function MuscleGambit() {
         </p>
         <p className="mt-6">
           Skontaktuj się z nami<br />
-          Masz pytania? Napisz na: <a href="MuscleGambit33@gmail.com" className="text-[#0d1a4b] underline">MuscleGambit@gmail.com>
-        </p>
+          Masz pytania? Napisz na: <a href="mailto:MuscleGambit33@gmail.com" className="text-[#0d1a4b] underline">
+  MuscleGambit@gmail.com
+</a>        </p>
       </footer>
     </div>
   );
