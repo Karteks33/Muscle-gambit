@@ -28,7 +28,7 @@ export default function MuscleGambit() {
           <p className="text-sm text-gray-500 mt-2 uppercase tracking-wide">MUSCLEGAMBIT</p>
           <p className="mt-4 font-bold text-2xl text-[#e63946]">14.99 zł</p>
           <button
-            onClick={() => handleRedirect("https://buy.stripe.com/test_cNi4gAgGog4Q6oa14E08g00")}
+            onClick={() => handleRedirect("https://buy.stripe.com/cNi9AUduc7ykaEq00A08g02")}
             className="mt-6 bg-[#0d1a4b] text-white font-semibold py-3 px-8 rounded-full shadow-md hover:bg-[#1a2a73] transition"
           >
             Kup teraz
@@ -48,7 +48,7 @@ export default function MuscleGambit() {
           <p className="text-sm text-gray-500 mt-2 uppercase tracking-wide">MUSCLEGAMBIT</p>
           <p className="mt-4 font-bold text-2xl text-[#e63946]">24,99 zł</p>
           <button
-            onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
+            onClick={() => handleRedirect("https://buy.stripe.com/eVq7sMfCk2e0dQCbJi08g03")}
             className="mt-6 bg-[#0d1a4b] text-white font-semibold py-3 px-8 rounded-full shadow-md hover:bg-[#1a2a73] transition"
           >
             Kup teraz
