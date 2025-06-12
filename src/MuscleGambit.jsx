@@ -18,7 +18,7 @@ export default function MuscleGambit() {
         {/* Plan 1 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center transition-transform hover:scale-105">
           <img
-            src="cr7.jpg"
+            src="dybala.jpg"
             alt="Plan Gambit Tanka"
             className="w-48 h-auto mb-6"
           />
@@ -38,7 +38,7 @@ export default function MuscleGambit() {
         {/* Plan 2 */}
         <div className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center transition-transform hover:scale-105">
           <img
-            src="messi.jpg"
+            src="rolando.jpg"
             alt="Plan Hetmański Sznyt"
             className="w-48 h-auto mb-6"
           />
