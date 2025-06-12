@@ -6,68 +6,65 @@ export default function MuscleGambit() {
   };
 
   return (
-    <div className="bg-[#111] text-white font-sans min-h-screen">
-      <header className="text-center py-10 bg-[#1a1a1a]">
-        <h1 className="text-4xl font-extrabold text-red-600">MuscleGambit</h1>
-        <p className="mt-4 text-xl italic text-gray-400 max-w-xl mx-auto">
+    <div className="bg-[#f2f3f7] text-[#111] font-sans min-h-screen">
+      <header className="text-center py-10 bg-white shadow-md">
+        <h1 className="text-4xl font-bold text-[#0d1a4b]">PLANY TRENINGOWE</h1>
+        <p className="mt-2 italic text-[#333]">
           "Każdy ruch ma znaczenie – nie tylko na szachownicy, ale i na siłowni."
         </p>
       </header>
 
-      <main className="max-w-6xl mx-auto p-8 grid grid-cols-1 md:grid-cols-2 gap-8">
+      <main className="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-3 gap-6">
         {/* Plan 1 */}
-        <div className="bg-[#1f1f1f] p-6 rounded-xl shadow-lg flex flex-col items-center text-center">
-          <h2 className="text-2xl font-bold text-red-500 mb-1">Gambit Tanka</h2>
-          <p className="text-gray-300 mb-2">Full Body Workout</p>
+        <div className="bg-white rounded-xl shadow-md p-4 flex flex-col items-center">
           <img
             src="/images/gambit-tanka.png"
             alt="Plan Gambit Tanka"
-            className="w-40 h-auto mb-4"
+            className="w-48 h-auto mb-4"
           />
-          <p className="text-sm text-gray-400 mb-2">
-            Plan skonstruowany jak otwarcie gambitowe – szybki, mocny i z myślą o dominacji. Trening całego ciała trzy razy w tygodniu. Idealny dla początkujących i średnio zaawansowanych.
-          </p>
-          <p className="text-lg font-semibold text-white mb-2">99,99 zł</p>
+          <h2 className="text-xl font-semibold text-center">
+            (Gotowy Ebook) Gambit Tanka – Full Body Workout
+          </h2>
+          <p className="text-sm text-[#666] mt-2">FATKILLER</p>
+          <p className="mt-2 font-bold text-lg">99,99 zł</p>
           <img
-            src="pogba.jpg"
+            src="/images/kup-teraz-1.png"
             alt="Kup teraz"
-            className="cursor-pointer w-36 hover:opacity-80 transition-opacity"
+            className="mt-4 cursor-pointer w-48 hover:opacity-80 transition"
             onClick={() => handleRedirect("https://buy.stripe.com/test_gambitTanka")}
           />
         </div>
 
         {/* Plan 2 */}
-        <div className="bg-[#1f1f1f] p-6 rounded-xl shadow-lg flex flex-col items-center text-center">
-          <h2 className="text-2xl font-bold text-red-500 mb-1">Hetmański Sznyt</h2>
-          <p className="text-gray-300 mb-2">2x Push Pull Legs</p>
+        <div className="bg-white rounded-xl shadow-md p-4 flex flex-col items-center">
           <img
             src="/images/hetmanski-sznyt.png"
             alt="Plan Hetmański Sznyt"
-            className="w-40 h-auto mb-4"
+            className="w-48 h-auto mb-4"
           />
-          <p className="text-sm text-gray-400 mb-2">
-            Dla zaawansowanych graczy – taktyka i kontrola. Ten sześciodniowy split pozwala precyzyjnie rozwijać każdą grupę mięśniową. Maksymalna objętość i intensywność bez chaosu.
-          </p>
-          <p className="text-lg font-semibold text-white mb-2">129,99 zł</p>
+          <h2 className="text-xl font-semibold text-center">
+            (Gotowy Ebook) Hetmański Sznyt – 2x Push Pull Legs
+          </h2>
+          <p className="text-sm text-[#666] mt-2">FATKILLER</p>
+          <p className="mt-2 font-bold text-lg">129,99 zł</p>
           <img
             src="/images/kup-teraz-2.png"
             alt="Kup teraz"
-            className="cursor-pointer w-36 hover:opacity-80 transition-opacity"
+            className="mt-4 cursor-pointer w-48 hover:opacity-80 transition"
             onClick={() => handleRedirect("https://buy.stripe.com/test_hetmanskiSznyt")}
           />
         </div>
+
+        {/* Pusta karta (opcjonalnie na przyszłość) */}
+        <div className="bg-white rounded-xl shadow-md p-4 flex flex-col items-center justify-center">
+          <p className="text-center text-gray-400">Wkrótce nowy plan!</p>
+        </div>
       </main>
 
-      <footer className="text-center py-10 bg-[#1a1a1a] text-gray-400 text-sm">
-        <p className="mb-4 max-w-xl mx-auto">
+      <footer className="text-center py-8 bg-white text-sm text-gray-600 mt-10">
+        <p className="max-w-xl mx-auto">
           MuscleGambit to projekt stworzony przez pasjonatów treningu i strategii. Wierzymy, że forma to wynik przemyślanego planu – jak w szachach.
         </p>
-        <p className="mb-2">
+        <p className="mt-4">
           Skontaktuj się z nami<br />
-          Masz pytania? Napisz na <a href="mailto:kontakt@musclegambit.pl" className="text-red-500 underline">kontakt@musclegambit.pl</a>
-        </p>
-        <p>&copy; 2025 MuscleGambit. Wszelkie prawa zastrzeżone.</p>
-      </footer>
-    </div>
-  );
-}
+          Masz pytania? Napisz na{" 
