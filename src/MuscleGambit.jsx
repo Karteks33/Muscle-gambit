@@ -23,7 +23,7 @@ export default function MuscleGambit() {
             className="w-48 h-auto mb-6"
           />
           <h2 className="text-2xl font-semibold text-center text-[#0d1a4b]">
-            (Gotowy Ebook) Gambit Tanka – Full Body Workout
+            (Pełny Plan Treningowy) Gambit Tanka – Full Body Workout
           </h2>
           <p className="text-sm text-gray-500 mt-2 uppercase tracking-wide">MUSCLEGAMBIT</p>
           <p className="mt-4 font-bold text-2xl text-[#e63946]">14.99 zł</p>
@@ -43,7 +43,7 @@ export default function MuscleGambit() {
             className="w-48 h-auto mb-6"
           />
           <h2 className="text-2xl font-semibold text-center text-[#0d1a4b]">
-            (Gotowy Ebook) Hetmański Sznyt – 2x Push Pull Legs
+            (Pełny Plan Treningowy) Hetmański Sznyt – 2x Push Pull Legs
           </h2>
           <p className="text-sm text-gray-500 mt-2 uppercase tracking-wide">MUSCLEGAMBIT</p>
           <p className="mt-4 font-bold text-2xl text-[#e63946]">24,99 zł</p>
