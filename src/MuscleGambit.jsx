@@ -11,7 +11,7 @@ export default function MuscleGambit() {
       <header className="text-center py-12 bg-white shadow-md">
         <h1 className="text-5xl font-extrabold text-[#0d1a4b]">PLANY TRENINGOWE</h1>
         <p className="mt-3 italic text-[#444] max-w-xl mx-auto">
-         „Nie musisz być najlepszy, żeby zacząć — ale musisz zacząć, żeby stać się najlepszym.”
+          „Nie musisz być najlepszy, żeby zacząć — ale musisz zacząć, żeby stać się najlepszym.”
         </p>
       </header>
 
@@ -68,12 +68,19 @@ export default function MuscleGambit() {
         </p>
         <p className="mt-6">
           Skontaktuj się z nami<br />
-          Masz pytania? Napisz na: <a href="mailto:MuscleGambit33@gmail.com" className="text-[#0d1a4b] underline">
-  MuscleGambit@gmail.com
-</a>        </p>
+          Masz pytania? Napisz na:{" "}
+          <a
+            href="mailto:MuscleGambit33@gmail.com"
+            className="text-[#0d1a4b] underline"
+          >
+            MuscleGambit@gmail.com
+          </a>
+        </p>
       </footer>
 
-       <Analytics />
+      <Analytics />
     </div>
   );
+}
+
 }
