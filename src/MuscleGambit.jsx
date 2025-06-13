@@ -1,4 +1,5 @@
 import React from "react";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function MuscleGambit() {
   const handleRedirect = (url) => {
@@ -71,6 +72,8 @@ export default function MuscleGambit() {
   MuscleGambit@gmail.com
 </a>        </p>
       </footer>
+
+       <Analytics />
     </div>
   );
 }
