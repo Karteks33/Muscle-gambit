@@ -13,14 +13,43 @@ export default function MuscleGambit() {
       price: "14,99 zł",
       img: "dybala.jpg",
       link: "https://buy.stripe.com/cNi9AUduc7ykaEq00A08g02",
-      description: "Ten plan skupia się na budowie fundamentów siły, zawiera ćwiczenia całego ciała na 3 dni w tygodniu, idealny dla początkujących i średniozaawansowanych.",
+      description: "Plan Treningowy FBW – Muscle Gambit
+
+Chcesz trenować efektywnie i kompleksowo? Nasz plan FBW (Full Body Workout) to idealne rozwiązanie dla każdego, kto chce rozwijać siłę, wytrzymałość i sylwetkę, trenując całe ciało podczas jednej sesji. Plan jest dopasowany zarówno dla początkujących, jak i bardziej zaawansowanych – dzięki temu zyskujesz maksymalne efekty bez zbędnego tracenia czasu!
+
+Co zyskujesz?
+
+Kompletny program treningowy na każdy tydzień
+
+Przemyślane ćwiczenia angażujące wszystkie partie mięśniowe
+
+Jasne wskazówki dotyczące serii, powtórzeń i przerw.
+
+
+Po zakupie natychmiast otrzymujesz dostęp do planu w formacie PDF, który automatycznie wyświetli się na ekranie Twojego urządzenia. Możesz go pobrać i mieć zawsze pod ręką – na telefonie, tablecie czy komputerze.
+
+Zacznij trenować z Muscle Gambit już dziś i zobacz różnicę!",
     },
     {
       title: "Hetmański Sznyt – 2x Push Pull Legs",
       price: "24,99 zł",
       img: "rolando.jpg",
       link: "https://buy.stripe.com/eVq7sMfCk2e0dQCbJi08g03",
-      description: "Intensywny plan 6-dniowy. Dla osób, które chcą zbudować masę mięśniową i zwiększyć wydolność przy użyciu systemu Push Pull Legs.",
+      description: "Plan Treningowy 2x Push Pull Legs – Muscle Gambit
+
+Szukasz skutecznego i dobrze zorganizowanego planu treningowego? Nasz plan 2x Push Pull Legs to sprawdzona metoda, która pozwala trenować każdą grupę mięśniową dwa razy w tygodniu, zapewniając szybkie postępy i odpowiednią regenerację.
+
+Co znajdziesz w planie?
+
+Podział na dni Push (mięśnie pchające), Pull (mięśnie ciągnące) oraz Legs (nogi)
+
+Dwukrotne treningi każdej grupy mięśniowej w tygodniu
+
+Dokładne instrukcje dotyczące ćwiczeń, serii, powtórzeń i przerw.
+
+Po zakupie natychmiast wyświetli się link do pobrania planu w formacie PDF, dzięki czemu możesz zacząć ćwiczyć od razu i mieć plan zawsze pod ręką – na telefonie, tablecie lub komputerze.
+
+Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!",
     },
   ];
 
@@ -28,7 +57,7 @@ export default function MuscleGambit() {
     <div className="bg-[#f2f3f7] text-[#111] font-sans min-h-screen flex flex-col">
       {/* Logo + Nagłówek */}
       <header className="flex items-center justify-between py-6 px-8 bg-white shadow-md">
-        <img src="/logo.png" alt="Logo" className="h-12 w-auto" />
+        <img src="lewandowski.jpg" alt="Logo" className="h-12 w-auto" />
         <div className="text-center flex-1">
           <h1 className="text-4xl font-extrabold text-[#0d1a4b]">PLANY TRENINGOWE</h1>
           <p className="mt-2 italic text-[#444] max-w-xl mx-auto">
