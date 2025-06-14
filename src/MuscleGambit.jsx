@@ -57,7 +57,7 @@ Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!",
     <div className="bg-[#f2f3f7] text-[#111] font-sans min-h-screen flex flex-col">
       {/* Logo + Nagłówek */}
       <header className="flex items-center justify-between py-6 px-8 bg-white shadow-md">
-        <img src="lewandowski.jpg" alt="Logo" className="h-12 w-auto" />
+        <img src="/lewandowski.jpg" alt="Logo" className="h-12 w-auto" />
         <div className="text-center flex-1">
           <h1 className="text-4xl font-extrabold text-[#0d1a4b]">PLANY TRENINGOWE</h1>
           <p className="mt-2 italic text-[#444] max-w-xl mx-auto">
