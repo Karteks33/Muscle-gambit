@@ -13,7 +13,7 @@ export default function MuscleGambit() {
       price: "14,99 zł",
       img: "dybala.jpg",
       link: "https://buy.stripe.com/cNi9AUduc7ykaEq00A08g02",
-      description: "Plan Treningowy FBW – Muscle Gambit
+      description: `Plan Treningowy FBW – Muscle Gambit
 
 Chcesz trenować efektywnie i kompleksowo? Nasz plan FBW (Full Body Workout) to idealne rozwiązanie dla każdego, kto chce rozwijać siłę, wytrzymałość i sylwetkę, trenując całe ciało podczas jednej sesji. Plan jest dopasowany zarówno dla początkujących, jak i bardziej zaawansowanych – dzięki temu zyskujesz maksymalne efekty bez zbędnego tracenia czasu!
 
@@ -25,17 +25,16 @@ Przemyślane ćwiczenia angażujące wszystkie partie mięśniowe
 
 Jasne wskazówki dotyczące serii, powtórzeń i przerw.
 
-
 Po zakupie natychmiast otrzymujesz dostęp do planu w formacie PDF, który automatycznie wyświetli się na ekranie Twojego urządzenia. Możesz go pobrać i mieć zawsze pod ręką – na telefonie, tablecie czy komputerze.
 
-Zacznij trenować z Muscle Gambit już dziś i zobacz różnicę!",
+Zacznij trenować z Muscle Gambit już dziś i zobacz różnicę!`,
     },
     {
       title: "Hetmański Sznyt – 2x Push Pull Legs",
       price: "24,99 zł",
       img: "rolando.jpg",
       link: "https://buy.stripe.com/eVq7sMfCk2e0dQCbJi08g03",
-      description: "Plan Treningowy 2x Push Pull Legs – Muscle Gambit
+      description: `Plan Treningowy 2x Push Pull Legs – Muscle Gambit
 
 Szukasz skutecznego i dobrze zorganizowanego planu treningowego? Nasz plan 2x Push Pull Legs to sprawdzona metoda, która pozwala trenować każdą grupę mięśniową dwa razy w tygodniu, zapewniając szybkie postępy i odpowiednią regenerację.
 
@@ -49,7 +48,7 @@ Dokładne instrukcje dotyczące ćwiczeń, serii, powtórzeń i przerw.
 
 Po zakupie natychmiast wyświetli się link do pobrania planu w formacie PDF, dzięki czemu możesz zacząć ćwiczyć od razu i mieć plan zawsze pod ręką – na telefonie, tablecie lub komputerze.
 
-Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!",
+Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!`,
     },
   ];
 
@@ -69,7 +68,10 @@ Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!",
       {/* Główna sekcja */}
       <main className="max-w-6xl mx-auto p-8 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 flex-grow">
         {plans.map((plan, index) => (
-          <div key={index} className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center transition-transform hover:scale-105">
+          <div
+            key={index}
+            className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center transition-transform hover:scale-105"
+          >
             <img src={plan.img} alt={plan.title} className="w-48 h-auto mb-6" />
             <h2 className="text-2xl font-semibold text-center text-[#0d1a4b]">{plan.title}</h2>
             <p className="text-sm text-gray-500 mt-2 uppercase tracking-wide">MUSCLEGAMBIT</p>
@@ -96,7 +98,9 @@ Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!",
               <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
                 <div className="bg-white text-black max-w-md p-6 rounded-xl relative shadow-lg">
                   <h3 className="text-xl font-bold mb-2">{plan.title}</h3>
-                  <p className="mb-4">{plan.description}</p>
+                  <p className="mb-4" style={{ whiteSpace: "pre-line" }}>
+                    {plan.description}
+                  </p>
                   <button
                     onClick={() => setOpenModal(null)}
                     className="absolute top-2 right-4 text-2xl font-bold text-gray-600 hover:text-black"
@@ -121,7 +125,8 @@ Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!",
           MuscleGambit to projekt stworzony przez pasjonatów treningu i strategii. Wierzymy, że forma to wynik przemyślanego planu – jak w szachach.
         </p>
         <p className="mt-6">
-          Skontaktuj się z nami<br />
+          Skontaktuj się z nami
+          <br />
           Masz pytania? Napisz na:{" "}
           <a href="mailto:MuscleGambit33@gmail.com" className="text-[#0d1a4b] underline">
             MuscleGambit@gmail.com
