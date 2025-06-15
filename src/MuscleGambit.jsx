@@ -51,7 +51,7 @@ Po zakupie natychmiast wyświetli się link do pobrania planu w formacie PDF, dz
 Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!`,
     },
     {
-      title: "Plan Indywidualny",
+      title: "Samotny jeździec - Plan Indywidualny",
       price: "39,99 zł",
       img: "teves.png",
       link: "https://buy.stripe.com/eVq6oIcq8cSE6oadRq08g04", // 
