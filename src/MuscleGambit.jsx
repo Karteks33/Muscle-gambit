@@ -50,6 +50,23 @@ Po zakupie natychmiast wyświetli się link do pobrania planu w formacie PDF, dz
 
 Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!`,
     },
+    {
+      title: "Plan Indywidualny",
+      price: "39,99 zł",
+      img: "indywidualny.jpg",
+      link: "https://buy.stripe.com/eVq6oIcq8cSE6oadRq08g04", // 
+      description: `Plan Indywidualny – Muscle Gambit
+
+Szukasz planu skrojonego pod Twoje cele, możliwości i styl życia? Plan indywidualny to propozycja dla osób, które oczekują maksimum personalizacji. Po zakupie skontaktuj się z nami drogą mailową abyśmy poznali twoje preferencje,stopień zaawansowania,wagę,wiek i możliwości sprzętowe.
+Co otrzymujesz?
+
+✅ Spersonalizowany plan w formacie PDF  
+✅ Analiza Twojego celu i możliwości  
+✅ Komunikacja z trenerem drogą mailową  
+✅ opis każdego ćwiczenia
+
+Zainwestuj w swój rozwój i trenuj z planem, który jest tylko Twój!`,
+    },
   ];
 
   return (
@@ -77,7 +94,6 @@ Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!`,
             <p className="text-sm text-gray-500 mt-2 uppercase tracking-wide">MUSCLEGAMBIT</p>
             <p className="mt-4 font-bold text-2xl text-[#e63946]">{plan.price}</p>
 
-            {/* Kup teraz */}
             <button
               onClick={() => handleRedirect(plan.link)}
               className="mt-4 bg-[#0d1a4b] text-white font-semibold py-3 px-8 rounded-full shadow-md hover:bg-[#1a2a73] transition"
@@ -85,7 +101,6 @@ Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!`,
               Kup teraz
             </button>
 
-            {/* Opis planu */}
             <button
               onClick={() => setOpenModal(index)}
               className="mt-3 text-[#0d1a4b] border border-[#0d1a4b] font-semibold py-2 px-6 rounded-full hover:bg-[#0d1a4b] hover:text-white transition"
@@ -93,7 +108,6 @@ Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!`,
               Opis planu
             </button>
 
-            {/* Modal */}
             {openModal === index && (
               <div className="fixed inset-0 bg-black bg-opacity-60 flex items-center justify-center z-50">
                 <div className="bg-white text-black max-w-md p-6 rounded-xl relative shadow-lg">
@@ -112,11 +126,6 @@ Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!`,
             )}
           </div>
         ))}
-
-        {/* Pusta karta */}
-        <div className="bg-white rounded-2xl shadow-lg p-8 flex flex-col items-center justify-center text-gray-400 italic text-lg">
-          <p>Wkrótce nowy plan!</p>
-        </div>
       </main>
 
       {/* Stopka */}
