@@ -53,7 +53,7 @@ Trenuj mądrze z Muscle Gambit i osiągaj swoje cele szybciej!`,
     {
       title: "Plan Indywidualny",
       price: "39,99 zł",
-      img: "indywidualny.jpg",
+      img: "teves.png",
       link: "https://buy.stripe.com/eVq6oIcq8cSE6oadRq08g04", // 
       description: `Plan Indywidualny – Muscle Gambit
 
